@@ -1,2 +1,2 @@
 # DAbayes
-A R package for Bayesian implementation of Detection and Attribution problems
+An R package for Bayesian implementation of Detection and Attribution problems
