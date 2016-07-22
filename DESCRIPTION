@@ -1,0 +1,16 @@
+Package: DAbayes
+Version: 0.1.0
+Date: 2016-06-27
+Title: Bayesian Statistical Model for Climate-Change Detection and Attribution
+Author: Pulong Ma <mpulong@gmail.com>, Dorit Hammerling <dorith@ucar.edu>, Matthais Katzfuss <katzfuss@gmail.com>
+Maintainer: Pulong Ma <mpulong@gmail.com>, Dorit Hammerling <dorith@ucar.edu> 
+Description: A regression-based hierarchical Bayesian model is implemented for climate-change detection and attribution problems with adaptive MCMC algorithms employed, which allows sequential and parallel Bayesian inference via Bayesian model averaging for very large datasets. The DAbayes package incorporates both a simulation example and real data analysis. For the latter, observed or reconstructed measurements (e.g., temperature change) and general circulation model (GCM) outputs under several forcing scenarios are used to illustrate the statistical problem.
+License: GPL-3
+Depends: R (>= 3.1.3), base, methods, stats, doRNG(>= 1.6), foreach(>= 1.4.3), doMC(>= 1.3.4)
+Imports: Matrix(>= 1.2-0), RSpectra(>= 0.11-0)
+Suggests: testthat(>= 0.11.0)
+LazyData: TRUE
+RoxygenNote: 5.0.1
+BugReports: https://github.com/mapn/DAbayes/issues
+NeedsCompilation: no
+Packaged: 2016-07-05 20:45:37 UTC; mapulong
